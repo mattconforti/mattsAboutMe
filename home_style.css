@@ -1,0 +1,133 @@
+#header {
+    float: left;
+    width: 100%;
+}
+
+#header h1 {
+    float: left;
+    width: 30%;
+    margin-left: 1.25%;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: #eee;
+    margin-top: 1.75%;
+    margin-left: 1.75%;
+}
+
+#menubar {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin-top: .75%;
+    background: rgba(0, 0, 0, .77);
+}
+
+#contents {
+    float:left;
+    width:100%;
+}
+
+#menubar > div {  /* selects all div containers that have #menubar as the parent */
+    flex: 1 1 auto;
+    margin: 10px 15px; /* top and bottom, right and left */
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contentSection {
+    float: left;
+    width: 100%;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+    background: rgba(0, 0, 0, .77);
+}
+
+#firstContentSection {
+    margin-top: 1.125em;
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color:#eee;
+    text-decoration: underline;
+    margin-left: 1.5%;
+}
+
+p {
+    margin-left: 1.5%;
+    font-family: Bookerly, Georgia, serif;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    color: #cfcfcf;
+}
+
+body {
+    background-image: url("beach.jpg");
+    background-repeat: repeat-y;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    font-weight: bold;
+}
+
+#menubar > div:hover {
+    background-image: url("beach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#footer > a {
+    padding-bottom: 1.5em;
+}
+
+img {
+    float: left;
+    width: 98px;
+    height: 102px;
+    margin-left: .5%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#contactDiv > ul li {
+    float:left;
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.125em;
+    padding-bottom: 1.25%;
+}
+
+button {
+    float: left;
+    width: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.125em;
+    color: #ccc;
+    background-color: black;
+    margin-left: 19.55%;
+    margin-top: 1.25%;
+    margin-bottom: 1.75%;
+}
+
+li {
+    font-family: Bookerly, Georgia, serif;
+    font-size: 1.125em;
+    color: #ccc;
+}
