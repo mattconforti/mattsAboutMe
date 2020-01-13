@@ -97,13 +97,21 @@ a:link, a:visited, a:hover, a:active {
     padding-bottom: 1.5em;
 }
 
-img {
+#profileImg {
     float: left;
     width: 98px;
     height: 102px;
     margin-left: .5%;
     border: 2px solid white;
     border-radius: 50%;
+}
+
+.projectImg {
+    width: 17%;
+    height: 17%;
+    margin-left: 1%;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 #contactDiv > ul li {
