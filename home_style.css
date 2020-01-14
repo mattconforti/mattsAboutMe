@@ -6,24 +6,23 @@
 #header h1 {
     float: left;
     width: 30%;
-    margin-left: 1.275%;
-    padding-left: .75%;
     font-family: Helvetica, sans-serif;
-    font-size: 2.75em;
+    font-size: 3.25em;
     text-decoration: underline;
     color: #eee;
-    margin-top: 1.23%;
+    margin-left: 7.7%;
+    margin-top: 1.75%;
 }
 
 #menubar {
     float: right;
+    /*width: 70%;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 55%;
     border: 1.5px solid white;
     border-radius: 10px;
-    margin-top: .77%;
+    margin-top: 1.177%;
     background: rgba(0, 0, 0, .77);
 }
 
@@ -50,7 +49,7 @@
 }
 
 #firstContentSection {
-    margin-top: 1.125em;
+    margin-top: 1em;
 }
 
 #footer {
@@ -101,7 +100,8 @@ a:link, a:visited, a:hover, a:active {
     float: left;
     width: 98px;
     height: 102px;
-    margin-left: .75%;
+    margin-left: 2.1%;
+    margin-top: .7em;
     border: 2px solid white;
     border-radius: 50%;
 }
