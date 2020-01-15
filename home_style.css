@@ -15,7 +15,7 @@
     font-size: 3.25em;
     text-decoration: underline;
     color: #eee;
-    margin-top: 2.25%;
+    margin-top: 2.375%;
     margin-left: 2.5%;
 }
 
@@ -30,17 +30,17 @@
     background: rgba(0, 0, 0, .77);
 }
 
-#contents {
-    float:left;
-    width:100%;
-}
-
 #menubar > div {  /* selects all div containers that have #menubar as the parent */
     flex: 1 1 auto;
     margin: 10px 15px; /* top and bottom, right and left */
     padding: 15px;
     text-align: center;
     border-radius: 10px;
+}
+
+#contents {
+    float:left;
+    width:100%;
 }
 
 .contentSection {
@@ -53,7 +53,7 @@
 }
 
 #firstContentSection {
-    margin-top: 1em;
+    margin-top: 1.575%;
 }
 
 #footer {
@@ -93,7 +93,7 @@ a:link, a:visited, a:hover, a:active {
 #menubar > div:hover {
     background-image: url("beach.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 
 #footer > a {
@@ -105,7 +105,7 @@ a:link, a:visited, a:hover, a:active {
     width: 98px;
     height: 102px;
     margin-left: 2.75%;
-    margin-bottom: 1.575%;
+    margin-bottom: 1.375%;
     margin-top: 1%;
     border: 2px solid white;
     border-radius: 50%;
@@ -121,7 +121,7 @@ a:link, a:visited, a:hover, a:active {
 
 #contactDiv > ul li {
     float:left;
-    width: 30%;
+    width: 27%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.125em;
     padding-bottom: 1.25%;
