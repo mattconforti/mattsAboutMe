@@ -15,7 +15,7 @@
     font-size: 3.25em;
     text-decoration: underline;
     color: #eee;
-    margin-top: 2.375%;
+    margin-top: 2.4%;
     margin-left: 2.5%;
 }
 
@@ -53,7 +53,7 @@
 }
 
 #firstContentSection {
-    margin-top: 1.575%;
+    margin-top: 1.75%;
 }
 
 #footer {
@@ -121,7 +121,7 @@ a:link, a:visited, a:hover, a:active {
 
 #contactDiv > ul li {
     float:left;
-    width: 27%;
+    width: 33%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.125em;
     padding-bottom: 1.25%;
