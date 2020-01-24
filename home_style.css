@@ -15,7 +15,7 @@
     font-size: 3.25em;
     text-decoration: underline;
     color: #eee;
-    margin-top: 2.4%;
+    margin-top: .7em;
     margin-left: 2.5%;
 }
 
@@ -53,7 +53,7 @@
 }
 
 #firstContentSection {
-    margin-top: 1.75%;
+    margin-top: 1.5em;
 }
 
 #footer {
@@ -106,7 +106,7 @@ a:link, a:visited, a:hover, a:active {
     height: 102px;
     margin-left: 2.75%;
     margin-bottom: 1.375%;
-    margin-top: 1%;
+    margin-top: 1em;
     border: 2px solid white;
     border-radius: 50%;
 }
