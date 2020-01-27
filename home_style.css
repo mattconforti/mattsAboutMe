@@ -88,6 +88,7 @@ a:link, a:visited, a:hover, a:active {
     font-size: 1em;
     font-family: Courier, monospace;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 #menubar > div:hover {
@@ -102,8 +103,8 @@ a:link, a:visited, a:hover, a:active {
 
 #profileImg {
     float: left;
-    width: 98px;
-    height: 102px;
+    width: 99px;
+    height: 103px;
     margin-left: 2.75%;
     margin-bottom: 1.375%;
     margin-top: 1em;
