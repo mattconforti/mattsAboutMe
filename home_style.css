@@ -12,7 +12,7 @@
 #header h1 {
     float: left;
     font-family: Helvetica, sans-serif;
-    font-size: 3.25em;
+    font-size: 3.275em;
     text-decoration: underline;
     color: #eee;
     margin-top: .7em;
@@ -53,7 +53,7 @@
 }
 
 #firstContentSection {
-    margin-top: 1.5em;
+    margin-top: 1.55em;
 }
 
 #footer {
@@ -72,7 +72,7 @@ h2 {
 p {
     margin-left: 1.5%;
     font-family: Bookerly, Georgia, serif;
-    font-size: 1.125em;
+    font-size: 1.175em;
     line-height: 1.5em;
     color: #cfcfcf;
 }
@@ -97,10 +97,6 @@ a:link, a:visited, a:hover, a:active {
     background-position: center top;
 }
 
-#footer > a {
-    padding-bottom: 1.5em;
-}
-
 #profileImg {
     float: left;
     width: 99px;
@@ -113,19 +109,18 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .projectImg {
-    width: 17%;
-    height: 17%;
-    margin-left: 1%;
+    width: 19%;
+    height: 19%;
+    margin-left: 1em;
     border: 2px solid white;
     border-radius: 10px;
 }
 
-#contactDiv > ul li {
-    float:left;
-    width: 33%;
+#contactDiv > div {
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.125em;
-    padding-bottom: 1.25%;
+    font-size: 1.115em;
+    margin-left: 1em;
 }
 
 button {
@@ -144,4 +139,9 @@ li {
     font-family: Bookerly, Georgia, serif;
     font-size: 1.125em;
     color: #ccc;
+}
+
+#footer > a {
+    margin-top: 1.25em;
+    padding-bottom: 1.125em;
 }
